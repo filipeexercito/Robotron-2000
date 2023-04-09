@@ -1,6 +1,10 @@
 const controles = document.querySelectorAll("[data-controle]");
 const estatisticas = document.querySelectorAll("[data-estatistica]");
 
+function trocaImagem (cor) {
+    document.querySelector(".robo").src = "/img/Robotron 2000 - " + cor + ".png";
+}
+
 const pecas = {
     "bracos": {
         "forca": 29,
