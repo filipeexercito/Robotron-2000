@@ -45,6 +45,18 @@ main {
     top: -5%;
 }
 
+[alterar] {
+    background-color: var(--main-cinza);
+}
+
+.botoes {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    display: flex;
+    gap: 1em;
+ }
+
 .titulo {
     transform: rotate(180deg);
     font-weight: 500;
